@@ -34,12 +34,9 @@ function draw() {
         continue;
       }
       image(img, x, y);
-      console.log('image', img.width, img.height)
-      console.log('x', x);
       x = x + img.width;
       maxHeight = max(maxHeight, img.height);
     }
-    console.log('y', y);
     y = y + maxHeight;
   }
 
