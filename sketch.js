@@ -1,10 +1,10 @@
 //build files array
 const files = [];
 for (let i = 0; i < 10; i++) {
-  files.push(`/assets/KEYBOARD_000${i}.png`);
+  files.push(`/L5CCb-random_keyboard/assets/KEYBOARD_000${i}.png`);
 }
 for (let i = 10; i < 22; i++) {
-  files.push(`/assets/KEYBOARD_00${i}.png`);
+  files.push(`/L5CCb-random_keyboard/assets/KEYBOARD_00${i}.png`);
 }
 
 const images = [];
